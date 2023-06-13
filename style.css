@@ -1,0 +1,169 @@
+/* styles.css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Estilo general */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Katibeh", cursive;
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+h1 {
+  padding-bottom: -20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  padding-left: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.uno{
+  color: rgb(255, 0, 0);
+}
+
+.dos{
+  color: rgb(255, 119, 0);
+}
+
+.tres{
+  color: rgb(255, 251, 0);
+}
+
+.cuatro{
+  color: rgb(0, 255, 0);
+}
+
+.cinco{
+  color: rgb(0, 255, 255);
+}
+
+.seis{
+  color: rgb(0, 0, 255);
+}
+
+.contenido{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imagen{
+  width: 85%;
+  height: 100%;
+}
+
+.titulotexto{
+  font-size: 70px;
+  text-align: center;
+}
+
+.texto{
+  font-size: 30px;
+  text-align: center;
+}
+
+.texto-dos{
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.texto-tres{
+  font-size: 20px;
+  text-align: center;
+}
+
+.content-welcome{
+  width: 50%;
+  justify-items: center;
+}
+.content-welcome-mini{
+  width: 500px;
+  margin: auto;
+  padding-right: 70px;
+}
+p, h2{
+font-weight: normal;
+}
+
+.bienvenida{
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  margin-top: 30px;
+  border-bottom: 1px solid #00000097;
+  border-top: 1px solid #00000097;
+}
+
+.carrusel{
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+}
+
+.cuatro-fotos{
+  margin: 10px;
+  margin-top: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card{
+  box-shadow: 2px 2px 2px #0000008c;
+}
+
+.titulo-card{
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Estilo del pie de página */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
